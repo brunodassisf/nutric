@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>NutricLIFE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="shortcut icon" href="imagens/favicon.png" /> 
+</head>
+<body id="body1">
+	<img id="emblema" src="imagens/emblema.png">
+
+	<div class="box-login">
+		<form action="./php/recebe.php" method="POST">
+
+			<h2>Cadastrar-se</h2>
+
+			<div>
+				<input class="campo-form" type="text" name="nome" placeholder="Nome" ></br>
+		    </div>
+
+		    <div>
+				<input class="campo-form" type="text" name="email" placeholder="E-mail" ></br>
+		    </div>
+
+		    <div>
+				<input class="campo-form" type="text" name="endereco" placeholder="Endereço"></br>
+		    </div>
+
+		    <div>
+				<input class="campo-form" type="text" name="crn" placeholder="CRN" maxlength="8">
+			</div>
+
+			<div>
+				<input class="campo-form" type="password" name="senha" placeholder="Senha" maxlength="10">
+			</div>
+
+			<div>
+				<button type="submit" class="botao">Cadastrar</button>
+			</div>
+
+			<div class="groupb">
+				<a href="index.html" class="botoes">voltar</a>
+			</div>
+
+		</form>
+	</div>
+
+</body>
+</html>

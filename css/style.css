@@ -1,0 +1,271 @@
+
+body {
+	background: url('../imagens/nutricao.jpg') no-repeat;
+	background-size: cover;
+    background-position: 0 155px;
+}
+
+#body1 {
+    background: url('../imagens/nutricao.jpg') no-repeat;
+    background-position: 63px 155px;
+}
+
+.box-login {
+	background-color: white;
+	width: 420px;
+	margin: 0 auto;
+    border-radius: 8px;
+    border: 5px solid green;
+    border-radius: 30px;
+}
+
+.box-paciente {
+    background-color: white;
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 5px solid green;
+    border-radius: 30px;
+
+}
+
+#body2{
+    width: 589px;
+    margin: 0 auto;
+    float: right;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+    color: gray;
+    text-align: center;
+
+}
+
+#emblema {
+	background-repeat: no-repeat;
+}
+
+.campo-form {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    width: 300px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 9px;
+    text-align: center;
+    margin-bottom: 12px;
+    color: gray;
+}
+
+.campo-form-c {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    width: 430px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    color: gray;
+}
+
+.box-login-campo{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    width: 300px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.groupb {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.botoes {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    width: 200px;
+    font-size: 15px;
+    border: none;
+    display: inherit;
+    padding: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    font-family: 'Merriweather', serif;
+}
+
+.botoes1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+    width: 60px;
+}
+
+.botoes:hover {
+    background-color: #3e8e41;
+}
+
+.botoes1:hover {
+    background-color: #3e8e41;
+}
+
+.botao:hover {
+    background-color: #3e8e41;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    width: 209px;
+    font-size: 15px;
+    border: none;
+    display: inherit;
+    padding: 6px;
+    margin: 0 auto;
+    border-radius: 6px;
+    font-family: 'Merriweather', serif;
+}
+
+.botao1 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+    float: left;
+    width: 93px;
+}
+
+
+.lembrar {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin-top: 10px;
+}
+
+.areat {
+    width: 90%;
+    height: 120px;
+    padding: 9px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    resize: none;
+    border: none;
+    margin-left: 22px;
+    border-left: 2px solid #4CAF50;
+}
+
+.select-form {
+    border: none;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: currentcolor;
+    border-bottom: 2px solid #4CAF50;
+    width: 170px;
+    font-family: 'Merriweather', serif;
+    font-size: 17px;
+    height: 30px;
+    margin-left: 5px;
+    margin-top: 9px;
+    margin-bottom: 12px;
+    color: gray;
+}
+
+.div-label {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    height: 40px;
+    margin-top: 5px;
+    color: gray;
+    padding-left: 30px;
+}
+
+.label-s {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    height: 17px;
+    margin-top: 5px;
+    color: gray;
+    padding-left: 63px;
+}
+
+.checkb {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: gray;
+    padding-top: 15px;
+
+}
+
+.label-file {
+  background-color: #3498db;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 6px 20px
+}
+
+input[type='file'] {
+  display: none
+}
+
+.input-wrapper label {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    float: left;
+    width: 60px;
+}
+
+.input-wrapper label:hover {
+  background-color: #3e8e41;
+}
+
+.div-select {
+    text-align: center;
+
+}
+
+.box-paciente2 {
+    background-color: white;
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 5px solid green;
+    border-radius: 30px;
+}
